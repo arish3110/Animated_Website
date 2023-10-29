@@ -21,8 +21,8 @@ Shery.textAnimate("#heading h1", {
 });
 
 gsap.from(".anim", {
-  y: 50,
   stagger: 0.3,
+  y: 50,
   opacity: 0,
   duration: 1,
   ease: Expo,
